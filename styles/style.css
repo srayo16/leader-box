@@ -1,0 +1,141 @@
+/* style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* common */
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 19px;
+    border-radius: 5px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-bottom: 27px;
+}
+/* top player style */
+.section-tittle{
+    
+    font-size: 24px;
+    color: #562EFF;
+    margin-top: 3px;
+    
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin: 16px;
+    font-size: 18px;
+}
+
+/*-----------------------
+---------Top Blog-------- */
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-tittle{
+    font-size: 20px;
+}
+.blog-author{
+    font-size: 16px;
+    color: #9F9F9F;
+}
+.blog-author a{
+    color: #562EFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+.blogs{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+
+/* Latest course */
+
+.course .course-banner img{
+    width: 224px;
+height: 104px;
+}
+.star .fas.fa-star.filled{
+    
+    color: #FFC014;
+}
+.star .fas.fa-star.diff{
+    color: #AEAEAE;
+}
+.star{
+    font-size: 12px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    width: 253px;
+    
+    
+}
+.duration{
+    background-color: #FFE4E8;
+    border-radius: 15px;
+    color: #FF4A60;
+    font-family: Open Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14.6913px;
+line-height: 20px;
+}
+
+@media only screen and (max-width: 688px){
+
+    .container{
+        width: 100%;
+    }
+    .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .player, .blog, .course{
+        flex-direction: column;
+    }
+    {
+       
+    
+}
+    
